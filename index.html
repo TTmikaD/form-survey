@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="title-survey">
+        <h1>Market Research Survey</h1>
+        <p>Please take a few moments to complete this satisfaction survey.</p>
+    </div>
+    <div class="dots-space"></div>
+    <div class="form-survey-container">
+        <form action="" method="post">
+            <div class="age marign-top">
+                <label class="bold-font-size" for="age-range">What is your age range?</label> <br>
+                <select name="age-range" class="padding-top">
+                    <option value="18-24">18-24</option>
+                    <option value="25-34">25-34</option>
+                    <option value="35-50">35-50</option>
+                    <option value="50+">50+</option>
+                </select>
+            </div>
+            <div class="price marign-top">
+                <label class="bold-font-size" for="price-range">What is your yearly income range?</label> <br>
+                <select name="price-range" class="padding-top">
+                    <option value="$0-$25,000">$0-$25,000</option>
+                    <option value="$25,001-$50,000">$25,001-$50,000</option>
+                    <option value="$50,001-$100,000">$50,001-$100,000</option>
+                    <option value="$100,000+">$100,000+</option>
+                </select>
+            </div>
+            <div class="gender-choose marign-top" id="hover-background">
+                <label class="bold-font-size" for="gender">Gender Identity</label> <br>
+                <input type="radio" name="gender"> Male <br>
+                <input type="radio" name="gender"> Female <br>
+                <input type="radio" name="gender"> Nonbinary <br>
+                <input type="radio" name="gender"> Nonbinary <br>
+                <div class="input-characters padding-top">
+                    <input type="text" name="maximum-character"> <br>
+                    <label for="maximum-character">Maximum of 250 characters.</label>
+                    <label for="maximum-character">Currently Used: 0 characters.</label>
+                </div>
+            </div>
+            <div class="produce-check marign-top" id="hover-background">
+                <label class="bold-font-size" for="produce-content">Which of the following products have your purchased
+                    in the last 2 months. Please check all that apply.</label> <br>
+                <input type="checkbox" name="produce-content"> Product 1 <br>
+                <input type="checkbox" name="produce-content"> Product 2 <br>
+                <input type="checkbox" name="produce-content"> Product 3 <br>
+            </div>
+            <div class="routine-use-produce marign-top" id="hover-background">
+                <label class="bold-font-size" for="content-use-produce">How often would you use our new product?</label>
+                <br>
+                <input type="radio" name="content-use-produce" class="padding-top"> Daily <br>
+                <input type="radio" name="content-use-produce" class="padding-top"> Weekly <br>
+                <input type="radio" name="content-use-produce" class="padding-top"> Monthly <br>
+            </div>
+            <div class="method-pay marign-top">
+                <label class="bold-font-size" for="content-method-pay">What would you pay for the new product? </label>
+                <br>
+                <div class="box-translate-money">
+                    <p class="bold-font-siz">$</p>
+                    <input type="text" name="content-method-pay" id="input-width-1">
+                    <p class="bold-font-siz">.</p>
+                    <input type="text" name="content-method-pay" id="input-width-2">
+                </div>
+                <div class="icon-dollar-cents">
+                    <p>Dollars</p>
+                    <p>Cents</p>
+                </div>
+            </div>
+            <div class="new-produce marign-top">
+                <label class="bold-font-size" for="content-new-produce">What features would you like to see in the new
+                    product.</label> <br>
+                <input type="text" name="content-new-produce" class="padding-top height-input-mew-product">
+            </div>
+            <p class="marign-top"> Please rate your level of agreement with the following statements.</p>
+        </form>
+    </div>
+</body>
+
+</html>
